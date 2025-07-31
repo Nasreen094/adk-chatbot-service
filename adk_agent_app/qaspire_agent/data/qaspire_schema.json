@@ -1,0 +1,1803 @@
+{
+  "tables": {
+    "bia_qaspire_dummy.attendance_data": {
+      "table_name": "bia_qaspire_dummy.attendance_data",
+      "fields": [
+        {
+          "name": "date",
+          "type": "STRING"
+        },
+        {
+          "name": "asset_id",
+          "type": "STRING",
+          "sample_values": [
+            "Aquarabia",
+            "Six Flags"
+          ]
+        },
+        {
+          "name": "attendees",
+          "type": "INTEGER"
+        },
+        {
+          "name": "average_length_of_stay",
+          "type": "FLOAT"
+        }
+      ],
+      "sample_rows": [
+        {
+          "date": "2024-04-16T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "attendees": 70915,
+          "average_length_of_stay": 3.01
+        },
+        {
+          "date": "2024-04-27T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "attendees": 64219,
+          "average_length_of_stay": 3.01
+        },
+        {
+          "date": "2024-07-29T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "attendees": 56881,
+          "average_length_of_stay": 3.01
+        }
+      ]
+    },
+    "bia_qaspire_dummy.attendance_revenue_data": {
+      "table_name": "bia_qaspire_dummy.attendance_revenue_data",
+      "fields": [
+        {
+          "name": "date",
+          "type": "STRING"
+        },
+        {
+          "name": "asset_id",
+          "type": "STRING",
+          "sample_values": [
+            "Aquarabia",
+            "Six Flags"
+          ]
+        },
+        {
+          "name": "attendees",
+          "type": "INTEGER"
+        },
+        {
+          "name": "tickets_sold",
+          "type": "INTEGER"
+        },
+        {
+          "name": "ticket_revenue",
+          "type": "FLOAT"
+        },
+        {
+          "name": "other_revenue",
+          "type": "FLOAT"
+        },
+        {
+          "name": "loyalty_members_visited",
+          "type": "INTEGER"
+        },
+        {
+          "name": "average_revenue_per_loyalty_member",
+          "type": "FLOAT"
+        }
+      ],
+      "sample_rows": [
+        {
+          "date": "2024-01-10T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "attendees": 170894,
+          "tickets_sold": 166397,
+          "ticket_revenue": 4529402.85,
+          "other_revenue": 959933.61,
+          "loyalty_members_visited": 2,
+          "average_revenue_per_loyalty_member": 188.7
+        },
+        {
+          "date": "2024-01-15T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "attendees": 164955,
+          "tickets_sold": 155571,
+          "ticket_revenue": 6657231.7,
+          "other_revenue": 965896.89,
+          "loyalty_members_visited": 2,
+          "average_revenue_per_loyalty_member": 160.9
+        },
+        {
+          "date": "2024-02-02T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "attendees": 115843,
+          "tickets_sold": 105662,
+          "ticket_revenue": 4902007.18,
+          "other_revenue": 1154198.05,
+          "loyalty_members_visited": 2,
+          "average_revenue_per_loyalty_member": 123.27
+        }
+      ]
+    },
+    "bia_qaspire_dummy.campaign_data": {
+      "table_name": "bia_qaspire_dummy.campaign_data",
+      "fields": [
+        {
+          "name": "date",
+          "type": "STRING"
+        },
+        {
+          "name": "asset_id",
+          "type": "STRING",
+          "sample_values": [
+            "Aquarabia",
+            "Six Flags"
+          ]
+        },
+        {
+          "name": "campaign",
+          "type": "STRING",
+          "sample_values": [
+            "Spring Adventure Pass",
+            "Summer Thrill Package",
+            "Halloween Special",
+            "Winter Holiday Bundle"
+          ]
+        },
+        {
+          "name": "campaignid",
+          "type": "INTEGER"
+        },
+        {
+          "name": "metrics_impressions",
+          "type": "INTEGER"
+        },
+        {
+          "name": "metrics_click_through_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "metrics_clicks",
+          "type": "INTEGER"
+        },
+        {
+          "name": "metrics_leads",
+          "type": "INTEGER"
+        },
+        {
+          "name": "metrics_conversions",
+          "type": "INTEGER"
+        },
+        {
+          "name": "metrics_conversion_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "metrics_cost_per_acquisition",
+          "type": "FLOAT"
+        },
+        {
+          "name": "metrics_cost_per_result",
+          "type": "FLOAT"
+        },
+        {
+          "name": "metrics_total_cost_results",
+          "type": "FLOAT"
+        },
+        {
+          "name": "metrics_total_cost_acquisitions",
+          "type": "FLOAT"
+        }
+      ],
+      "sample_rows": [
+        {
+          "date": "2024-03-01T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "campaign": "Spring Adventure Pass",
+          "campaignid": 1,
+          "metrics_impressions": 6720,
+          "metrics_click_through_rate": 3.67,
+          "metrics_clicks": 247,
+          "metrics_leads": 366,
+          "metrics_conversions": 378,
+          "metrics_conversion_rate": 3.48,
+          "metrics_cost_per_acquisition": 2.31,
+          "metrics_cost_per_result": 4.56,
+          "metrics_total_cost_results": 845.46,
+          "metrics_total_cost_acquisitions": 1723.68
+        },
+        {
+          "date": "2024-03-02T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "campaign": "Spring Adventure Pass",
+          "campaignid": 1,
+          "metrics_impressions": 9403,
+          "metrics_click_through_rate": 3.57,
+          "metrics_clicks": 336,
+          "metrics_leads": 384,
+          "metrics_conversions": 394,
+          "metrics_conversion_rate": 2.97,
+          "metrics_cost_per_acquisition": 2.31,
+          "metrics_cost_per_result": 4.82,
+          "metrics_total_cost_results": 887.04,
+          "metrics_total_cost_acquisitions": 1899.08
+        },
+        {
+          "date": "2024-03-03T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "campaign": "Spring Adventure Pass",
+          "campaignid": 1,
+          "metrics_impressions": 7234,
+          "metrics_click_through_rate": 3.63,
+          "metrics_clicks": 263,
+          "metrics_leads": 302,
+          "metrics_conversions": 180,
+          "metrics_conversion_rate": 2.32,
+          "metrics_cost_per_acquisition": 2.54,
+          "metrics_cost_per_result": 3.78,
+          "metrics_total_cost_results": 767.08,
+          "metrics_total_cost_acquisitions": 680.4
+        }
+      ]
+    },
+    "bia_qaspire_dummy.customer_feedback_data": {
+      "table_name": "bia_qaspire_dummy.customer_feedback_data",
+      "fields": [
+        {
+          "name": "date",
+          "type": "STRING"
+        },
+        {
+          "name": "asset_id",
+          "type": "STRING",
+          "sample_values": [
+            "Aquarabia",
+            "Six Flags"
+          ]
+        },
+        {
+          "name": "feedback_count",
+          "type": "INTEGER"
+        },
+        {
+          "name": "very_dissatisfied",
+          "type": "INTEGER"
+        },
+        {
+          "name": "dissatisfied",
+          "type": "INTEGER"
+        },
+        {
+          "name": "neutral",
+          "type": "INTEGER"
+        },
+        {
+          "name": "satisfied",
+          "type": "INTEGER"
+        },
+        {
+          "name": "very_satisfied",
+          "type": "INTEGER"
+        },
+        {
+          "name": "average_score",
+          "type": "FLOAT"
+        },
+        {
+          "name": "intention_to_revisit",
+          "type": "FLOAT"
+        },
+        {
+          "name": "intention_to_recommend",
+          "type": "FLOAT"
+        },
+        {
+          "name": "complaints_customer_service",
+          "type": "INTEGER"
+        },
+        {
+          "name": "complaints_cleanliness",
+          "type": "INTEGER"
+        },
+        {
+          "name": "complaints_ride_safety",
+          "type": "INTEGER"
+        },
+        {
+          "name": "complaints_wait_times",
+          "type": "INTEGER"
+        },
+        {
+          "name": "complaints_technical_issues",
+          "type": "INTEGER"
+        },
+        {
+          "name": "complaints_other",
+          "type": "INTEGER"
+        }
+      ],
+      "sample_rows": [
+        {
+          "date": "2024-10-25T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "feedback_count": 16035,
+          "very_dissatisfied": 1617,
+          "dissatisfied": 2109,
+          "neutral": 3024,
+          "satisfied": 4125,
+          "very_satisfied": 5160,
+          "average_score": 3.57,
+          "intention_to_revisit": 76.82,
+          "intention_to_recommend": 83.67,
+          "complaints_customer_service": 0,
+          "complaints_cleanliness": 0,
+          "complaints_ride_safety": 0,
+          "complaints_wait_times": 0,
+          "complaints_technical_issues": 0,
+          "complaints_other": 0
+        },
+        {
+          "date": "2024-11-02T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "feedback_count": 18013,
+          "very_dissatisfied": 1619,
+          "dissatisfied": 2084,
+          "neutral": 2340,
+          "satisfied": 7223,
+          "very_satisfied": 4747,
+          "average_score": 3.63,
+          "intention_to_revisit": 77.7,
+          "intention_to_recommend": 82.45,
+          "complaints_customer_service": 1,
+          "complaints_cleanliness": 0,
+          "complaints_ride_safety": 1,
+          "complaints_wait_times": 1,
+          "complaints_technical_issues": 0,
+          "complaints_other": 0
+        },
+        {
+          "date": "2024-03-24T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "feedback_count": 18305,
+          "very_dissatisfied": 1648,
+          "dissatisfied": 2170,
+          "neutral": 3382,
+          "satisfied": 4972,
+          "very_satisfied": 6133,
+          "average_score": 3.64,
+          "intention_to_revisit": 80.28,
+          "intention_to_recommend": 76.06,
+          "complaints_customer_service": 0,
+          "complaints_cleanliness": 0,
+          "complaints_ride_safety": 0,
+          "complaints_wait_times": 0,
+          "complaints_technical_issues": 0,
+          "complaints_other": 0
+        }
+      ]
+    },
+    "bia_qaspire_dummy.engagement_data": {
+      "table_name": "bia_qaspire_dummy.engagement_data",
+      "fields": [
+        {
+          "name": "asset_id",
+          "type": "STRING",
+          "sample_values": [
+            "Aquarabia",
+            "Six Flags"
+          ]
+        },
+        {
+          "name": "date",
+          "type": "STRING"
+        },
+        {
+          "name": "total_reach",
+          "type": "INTEGER"
+        },
+        {
+          "name": "campaign_reach",
+          "type": "INTEGER"
+        },
+        {
+          "name": "pr_reach",
+          "type": "INTEGER"
+        },
+        {
+          "name": "social_media",
+          "type": "INTEGER"
+        },
+        {
+          "name": "customer_satisfaction_score",
+          "type": "FLOAT"
+        },
+        {
+          "name": "very_dissatisfied_percentage",
+          "type": "FLOAT"
+        },
+        {
+          "name": "dissatisfied_percentage",
+          "type": "FLOAT"
+        },
+        {
+          "name": "neutral_percentage",
+          "type": "FLOAT"
+        },
+        {
+          "name": "satisfied_percentage",
+          "type": "FLOAT"
+        },
+        {
+          "name": "very_satisfied_percentage",
+          "type": "FLOAT"
+        },
+        {
+          "name": "instagram_conversion_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "tiktok_conversion_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "youtube_conversion_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "x_conversion_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "meta_conversion_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "snapchat_conversion_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "conversion_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "click_through_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "intention_to_revisit",
+          "type": "FLOAT"
+        },
+        {
+          "name": "intention_to_recommend",
+          "type": "FLOAT"
+        }
+      ],
+      "sample_rows": [
+        {
+          "asset_id": "Aquarabia",
+          "date": "2024-04-21T00:00:00Z",
+          "total_reach": 42319,
+          "campaign_reach": 3869,
+          "pr_reach": 5222,
+          "social_media": 3471,
+          "customer_satisfaction_score": 3.62,
+          "very_dissatisfied_percentage": 4.98,
+          "dissatisfied_percentage": 11.97,
+          "neutral_percentage": 20.02,
+          "satisfied_percentage": 39.83,
+          "very_satisfied_percentage": 22.8,
+          "instagram_conversion_rate": 3.16,
+          "tiktok_conversion_rate": 3.23,
+          "youtube_conversion_rate": 1.45,
+          "x_conversion_rate": 3.02,
+          "meta_conversion_rate": 3.16,
+          "snapchat_conversion_rate": 2.22,
+          "conversion_rate": 5.05,
+          "click_through_rate": 2.24,
+          "intention_to_revisit": 69.88,
+          "intention_to_recommend": 88.28
+        },
+        {
+          "asset_id": "Aquarabia",
+          "date": "2024-10-14T00:00:00Z",
+          "total_reach": 35340,
+          "campaign_reach": 3448,
+          "pr_reach": 5297,
+          "social_media": 3254,
+          "customer_satisfaction_score": 3.62,
+          "very_dissatisfied_percentage": 5.03,
+          "dissatisfied_percentage": 11.87,
+          "neutral_percentage": 19.87,
+          "satisfied_percentage": 39.99,
+          "very_satisfied_percentage": 22.81,
+          "instagram_conversion_rate": 2.87,
+          "tiktok_conversion_rate": 3.48,
+          "youtube_conversion_rate": 1.34,
+          "x_conversion_rate": 3.2,
+          "meta_conversion_rate": 3.12,
+          "snapchat_conversion_rate": 2.27,
+          "conversion_rate": 4.86,
+          "click_through_rate": 4.34,
+          "intention_to_revisit": 70.75,
+          "intention_to_recommend": 88.76
+        },
+        {
+          "asset_id": "Aquarabia",
+          "date": "2024-10-15T00:00:00Z",
+          "total_reach": 36361,
+          "campaign_reach": 3612,
+          "pr_reach": 5068,
+          "social_media": 3397,
+          "customer_satisfaction_score": 3.62,
+          "very_dissatisfied_percentage": 5.09,
+          "dissatisfied_percentage": 11.89,
+          "neutral_percentage": 19.94,
+          "satisfied_percentage": 39.89,
+          "very_satisfied_percentage": 22.81,
+          "instagram_conversion_rate": 2.86,
+          "tiktok_conversion_rate": 3.37,
+          "youtube_conversion_rate": 1.1,
+          "x_conversion_rate": 3.37,
+          "meta_conversion_rate": 3.02,
+          "snapchat_conversion_rate": 2.5,
+          "conversion_rate": 4.83,
+          "click_through_rate": 3.53,
+          "intention_to_revisit": 71.99,
+          "intention_to_recommend": 87.61
+        }
+      ]
+    },
+    "bia_qaspire_dummy.event_data": {
+      "table_name": "bia_qaspire_dummy.event_data",
+      "fields": [
+        {
+          "name": "date",
+          "type": "STRING"
+        },
+        {
+          "name": "asset_id",
+          "type": "STRING",
+          "sample_values": [
+            "Aquarabia",
+            "Six Flags"
+          ]
+        },
+        {
+          "name": "event_type",
+          "type": "STRING",
+          "sample_values": [
+            "Meetings",
+            "Incentives",
+            "Conferences",
+            "Exhibitions"
+          ]
+        },
+        {
+          "name": "event_name",
+          "type": "STRING",
+          "sample_values": [
+            "Annual Planning Session 2024",
+            "Board Meeting 2024",
+            "Champions Club Gathering 2024",
+            "Customer Experience Summit 2024",
+            "Diamond Club Assembly 2024"
+          ]
+        },
+        {
+          "name": "category",
+          "type": "STRING",
+          "sample_values": [
+            "Corporate",
+            "Entertainment",
+            "Educational",
+            "Technology"
+          ]
+        },
+        {
+          "name": "attendees",
+          "type": "INTEGER"
+        },
+        {
+          "name": "revenue",
+          "type": "FLOAT"
+        },
+        {
+          "name": "quarter",
+          "type": "INTEGER"
+        }
+      ],
+      "sample_rows": [
+        {
+          "date": "1/26/2023",
+          "asset_id": "Aquarabia",
+          "event_type": "Meetings",
+          "event_name": "Annual Planning Session 2024",
+          "category": "Corporate",
+          "attendees": 471,
+          "revenue": 156499.24,
+          "quarter": 1
+        },
+        {
+          "date": "4/25/2023",
+          "asset_id": "Aquarabia",
+          "event_type": "Meetings",
+          "event_name": "Annual Planning Session 2024",
+          "category": "Entertainment",
+          "attendees": 267,
+          "revenue": 74485.29,
+          "quarter": 2
+        },
+        {
+          "date": "7/3/2023",
+          "asset_id": "Aquarabia",
+          "event_type": "Meetings",
+          "event_name": "Annual Planning Session 2024",
+          "category": "Corporate",
+          "attendees": 389,
+          "revenue": 98228.66,
+          "quarter": 3
+        }
+      ]
+    },
+    "bia_qaspire_dummy.finance_data": {
+      "table_name": "bia_qaspire_dummy.finance_data",
+      "fields": [
+        {
+          "name": "year",
+          "type": "INTEGER"
+        },
+        {
+          "name": "month",
+          "type": "INTEGER"
+        },
+        {
+          "name": "asset_id",
+          "type": "STRING",
+          "sample_values": [
+            "Aquarabia",
+            "Six Flags"
+          ]
+        },
+        {
+          "name": "admissions_revenue",
+          "type": "FLOAT"
+        },
+        {
+          "name": "fnb_revenue",
+          "type": "FLOAT"
+        },
+        {
+          "name": "other_revenue",
+          "type": "FLOAT"
+        },
+        {
+          "name": "cost_of_sales_fnb",
+          "type": "FLOAT"
+        },
+        {
+          "name": "cost_of_sales_retail",
+          "type": "FLOAT"
+        },
+        {
+          "name": "cost_of_sales_other",
+          "type": "FLOAT"
+        },
+        {
+          "name": "payroll_cost",
+          "type": "FLOAT"
+        },
+        {
+          "name": "royalty_fees",
+          "type": "FLOAT"
+        },
+        {
+          "name": "sponsorship_fees",
+          "type": "FLOAT"
+        },
+        {
+          "name": "sales_marketing",
+          "type": "FLOAT"
+        },
+        {
+          "name": "other_expenses",
+          "type": "FLOAT"
+        },
+        {
+          "name": "capex",
+          "type": "FLOAT"
+        },
+        {
+          "name": "forecasted_net_cash_outflow",
+          "type": "FLOAT"
+        },
+        {
+          "name": "accounts_receivable_confirmed",
+          "type": "FLOAT"
+        },
+        {
+          "name": "accounts_receivable_pending",
+          "type": "FLOAT"
+        },
+        {
+          "name": "accounts_receivable_disputed",
+          "type": "FLOAT"
+        },
+        {
+          "name": "accounts_payable_confirmed",
+          "type": "FLOAT"
+        },
+        {
+          "name": "accounts_payable_pending",
+          "type": "FLOAT"
+        },
+        {
+          "name": "accounts_payable_disputed",
+          "type": "FLOAT"
+        }
+      ],
+      "sample_rows": [
+        {
+          "year": 2023,
+          "month": 1,
+          "asset_id": "Aquarabia",
+          "admissions_revenue": 33541694.05,
+          "fnb_revenue": 23013574.8,
+          "other_revenue": 8602286.16,
+          "cost_of_sales_fnb": 10987341.25,
+          "cost_of_sales_retail": 1987616.77,
+          "cost_of_sales_other": 969079.21,
+          "payroll_cost": 15673833.87,
+          "royalty_fees": 2902147.99,
+          "sponsorship_fees": 3000646.07,
+          "sales_marketing": 5014761.31,
+          "other_expenses": 4971559.95,
+          "capex": 2019859.66,
+          "forecasted_net_cash_outflow": 31451411.91,
+          "accounts_receivable_confirmed": 365823.19,
+          "accounts_receivable_pending": 206728.57,
+          "accounts_receivable_disputed": 97589.29,
+          "accounts_payable_confirmed": 364746.06,
+          "accounts_payable_pending": 184676.67,
+          "accounts_payable_disputed": 93798.5
+        },
+        {
+          "year": 2023,
+          "month": 2,
+          "asset_id": "Aquarabia",
+          "admissions_revenue": 37278816.59,
+          "fnb_revenue": 19841631.95,
+          "other_revenue": 8432873.61,
+          "cost_of_sales_fnb": 11008598.58,
+          "cost_of_sales_retail": 1963761.15,
+          "cost_of_sales_other": 965815.05,
+          "payroll_cost": 14612543.15,
+          "royalty_fees": 2872460.77,
+          "sponsorship_fees": 2859234.65,
+          "sales_marketing": 5220036.59,
+          "other_expenses": 5180484.23,
+          "capex": 1862589.63,
+          "forecasted_net_cash_outflow": 33328408.99,
+          "accounts_receivable_confirmed": 308071.35,
+          "accounts_receivable_pending": 206716.21,
+          "accounts_receivable_disputed": 109359.11,
+          "accounts_payable_confirmed": 339550.89,
+          "accounts_payable_pending": 182602.31,
+          "accounts_payable_disputed": 93386.56
+        },
+        {
+          "year": 2023,
+          "month": 3,
+          "asset_id": "Aquarabia",
+          "admissions_revenue": 38117258.69,
+          "fnb_revenue": 20444174.67,
+          "other_revenue": 7838473.5,
+          "cost_of_sales_fnb": 10662702.9,
+          "cost_of_sales_retail": 1904150.87,
+          "cost_of_sales_other": 1026660.54,
+          "payroll_cost": 14653136.58,
+          "royalty_fees": 3049405.81,
+          "sponsorship_fees": 2916444.61,
+          "sales_marketing": 5000029.69,
+          "other_expenses": 5034403.77,
+          "capex": 1432728.99,
+          "forecasted_net_cash_outflow": 32162618.76,
+          "accounts_receivable_confirmed": 338281.95,
+          "accounts_receivable_pending": 183874.33,
+          "accounts_receivable_disputed": 103482.45,
+          "accounts_payable_confirmed": 363674.95,
+          "accounts_payable_pending": 187435.56,
+          "accounts_payable_disputed": 94421.45
+        }
+      ]
+    },
+    "bia_qaspire_dummy.incident_data": {
+      "table_name": "bia_qaspire_dummy.incident_data",
+      "fields": [
+        {
+          "name": "asset_id",
+          "type": "STRING",
+          "sample_values": [
+            "Six Flags",
+            "Aquarabia"
+          ]
+        },
+        {
+          "name": "date",
+          "type": "STRING"
+        },
+        {
+          "name": "safety",
+          "type": "INTEGER"
+        },
+        {
+          "name": "cleanliness",
+          "type": "INTEGER"
+        },
+        {
+          "name": "equipment_failure",
+          "type": "INTEGER"
+        },
+        {
+          "name": "other",
+          "type": "INTEGER"
+        }
+      ],
+      "sample_rows": [
+        {
+          "asset_id": "Six Flags",
+          "date": "2024-01-07 00:00:00+00:00",
+          "safety": 0,
+          "cleanliness": 0,
+          "equipment_failure": 2,
+          "other": 0
+        },
+        {
+          "asset_id": "Aquarabia",
+          "date": "2024-01-26 00:00:00+00:00",
+          "safety": 0,
+          "cleanliness": 0,
+          "equipment_failure": 5,
+          "other": 0
+        },
+        {
+          "asset_id": "Six Flags",
+          "date": "2024-01-30 00:00:00+00:00",
+          "safety": 0,
+          "cleanliness": 3,
+          "equipment_failure": 3,
+          "other": 0
+        }
+      ]
+    },
+    "bia_qaspire_dummy.loyalty_data": {
+      "table_name": "bia_qaspire_dummy.loyalty_data",
+      "fields": [
+        {
+          "name": "date",
+          "type": "STRING"
+        },
+        {
+          "name": "asset_id",
+          "type": "STRING",
+          "sample_values": [
+            "Six Flags",
+            "Aquarabia"
+          ]
+        },
+        {
+          "name": "total_loyalty_members",
+          "type": "INTEGER"
+        },
+        {
+          "name": "active_loyalty_members",
+          "type": "INTEGER"
+        },
+        {
+          "name": "tiers_tier1_total",
+          "type": "INTEGER"
+        },
+        {
+          "name": "tiers_tier1_active",
+          "type": "INTEGER"
+        },
+        {
+          "name": "tiers_tier2_total",
+          "type": "INTEGER"
+        },
+        {
+          "name": "tiers_tier2_active",
+          "type": "INTEGER"
+        },
+        {
+          "name": "tiers_tier3_total",
+          "type": "INTEGER"
+        },
+        {
+          "name": "tiers_tier3_active",
+          "type": "INTEGER"
+        }
+      ],
+      "sample_rows": [
+        {
+          "date": "2023-03-11T00:00:00Z",
+          "asset_id": "Six Flags",
+          "total_loyalty_members": 7112,
+          "active_loyalty_members": 1662,
+          "tiers_tier1_total": 713,
+          "tiers_tier1_active": 167,
+          "tiers_tier2_total": 2719,
+          "tiers_tier2_active": 635,
+          "tiers_tier3_total": 3680,
+          "tiers_tier3_active": 860
+        },
+        {
+          "date": "2023-06-14T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "total_loyalty_members": 8140,
+          "active_loyalty_members": 1676,
+          "tiers_tier1_total": 816,
+          "tiers_tier1_active": 168,
+          "tiers_tier2_total": 2593,
+          "tiers_tier2_active": 534,
+          "tiers_tier3_total": 4731,
+          "tiers_tier3_active": 974
+        },
+        {
+          "date": "2023-10-22T00:00:00Z",
+          "asset_id": "Six Flags",
+          "total_loyalty_members": 8119,
+          "active_loyalty_members": 1704,
+          "tiers_tier1_total": 825,
+          "tiers_tier1_active": 173,
+          "tiers_tier2_total": 2725,
+          "tiers_tier2_active": 572,
+          "tiers_tier3_total": 4569,
+          "tiers_tier3_active": 959
+        }
+      ]
+    },
+    "bia_qaspire_dummy.maintenance_data": {
+      "table_name": "bia_qaspire_dummy.maintenance_data",
+      "fields": [
+        {
+          "name": "asset_id",
+          "type": "STRING",
+          "sample_values": [
+            "Aquarabia",
+            "Six Flags"
+          ]
+        },
+        {
+          "name": "date",
+          "type": "STRING"
+        },
+        {
+          "name": "service_requests_closed",
+          "type": "INTEGER"
+        },
+        {
+          "name": "average_pending_duration_hours",
+          "type": "FLOAT"
+        },
+        {
+          "name": "total_service_requests",
+          "type": "INTEGER"
+        },
+        {
+          "name": "labour_hours",
+          "type": "INTEGER"
+        },
+        {
+          "name": "service_requests_high",
+          "type": "INTEGER"
+        },
+        {
+          "name": "service_requests_medium",
+          "type": "INTEGER"
+        },
+        {
+          "name": "service_requests_low",
+          "type": "INTEGER"
+        },
+        {
+          "name": "maintenance_issues_by_department_electrical",
+          "type": "INTEGER"
+        },
+        {
+          "name": "maintenance_issues_by_department_plumbing",
+          "type": "INTEGER"
+        },
+        {
+          "name": "maintenance_issues_by_department_hvac",
+          "type": "INTEGER"
+        },
+        {
+          "name": "maintenance_issues_by_department_other",
+          "type": "INTEGER"
+        }
+      ],
+      "sample_rows": [
+        {
+          "asset_id": "Aquarabia",
+          "date": "2024-03-13T00:00:00Z",
+          "service_requests_closed": 4,
+          "average_pending_duration_hours": 5.81,
+          "total_service_requests": 5,
+          "labour_hours": 1359,
+          "service_requests_high": 1,
+          "service_requests_medium": 3,
+          "service_requests_low": 2,
+          "maintenance_issues_by_department_electrical": 2,
+          "maintenance_issues_by_department_plumbing": 1,
+          "maintenance_issues_by_department_hvac": 1,
+          "maintenance_issues_by_department_other": 1
+        },
+        {
+          "asset_id": "Aquarabia",
+          "date": "2024-01-03T00:00:00Z",
+          "service_requests_closed": 4,
+          "average_pending_duration_hours": 6.0,
+          "total_service_requests": 6,
+          "labour_hours": 1442,
+          "service_requests_high": 1,
+          "service_requests_medium": 3,
+          "service_requests_low": 2,
+          "maintenance_issues_by_department_electrical": 2,
+          "maintenance_issues_by_department_plumbing": 1,
+          "maintenance_issues_by_department_hvac": 2,
+          "maintenance_issues_by_department_other": 1
+        },
+        {
+          "asset_id": "Aquarabia",
+          "date": "2024-01-04T00:00:00Z",
+          "service_requests_closed": 4,
+          "average_pending_duration_hours": 5.87,
+          "total_service_requests": 6,
+          "labour_hours": 983,
+          "service_requests_high": 1,
+          "service_requests_medium": 3,
+          "service_requests_low": 2,
+          "maintenance_issues_by_department_electrical": 2,
+          "maintenance_issues_by_department_plumbing": 1,
+          "maintenance_issues_by_department_hvac": 2,
+          "maintenance_issues_by_department_other": 1
+        }
+      ]
+    },
+    "bia_qaspire_dummy.pr_data": {
+      "table_name": "bia_qaspire_dummy.pr_data",
+      "fields": [
+        {
+          "name": "date",
+          "type": "STRING"
+        },
+        {
+          "name": "asset_id",
+          "type": "STRING",
+          "sample_values": [
+            "Aquarabia",
+            "Six Flags"
+          ]
+        },
+        {
+          "name": "reach",
+          "type": "INTEGER"
+        },
+        {
+          "name": "industry_reach",
+          "type": "INTEGER"
+        },
+        {
+          "name": "pr_value",
+          "type": "INTEGER"
+        },
+        {
+          "name": "total_media_value",
+          "type": "INTEGER"
+        },
+        {
+          "name": "share_of_voice",
+          "type": "INTEGER"
+        },
+        {
+          "name": "sentiment_positive",
+          "type": "INTEGER"
+        },
+        {
+          "name": "sentiment_neutral",
+          "type": "INTEGER"
+        },
+        {
+          "name": "sentiment_negative",
+          "type": "INTEGER"
+        }
+      ],
+      "sample_rows": [
+        {
+          "date": "2024-04-06T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "reach": 3641,
+          "industry_reach": 260352,
+          "pr_value": 35780,
+          "total_media_value": 148934,
+          "share_of_voice": 27,
+          "sentiment_positive": 112,
+          "sentiment_neutral": 32,
+          "sentiment_negative": 6
+        },
+        {
+          "date": "2024-05-26T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "reach": 2450,
+          "industry_reach": 156311,
+          "pr_value": 22196,
+          "total_media_value": 113523,
+          "share_of_voice": 27,
+          "sentiment_positive": 112,
+          "sentiment_neutral": 32,
+          "sentiment_negative": 6
+        },
+        {
+          "date": "2024-11-27T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "reach": 4528,
+          "industry_reach": 208528,
+          "pr_value": 29210,
+          "total_media_value": 118842,
+          "share_of_voice": 34,
+          "sentiment_positive": 112,
+          "sentiment_neutral": 32,
+          "sentiment_negative": 6
+        }
+      ]
+    },
+    "bia_qaspire_dummy.ride_data": {
+      "table_name": "bia_qaspire_dummy.ride_data",
+      "fields": [
+        {
+          "name": "asset_id",
+          "type": "STRING",
+          "sample_values": [
+            "Aquarabia",
+            "Six Flags"
+          ]
+        },
+        {
+          "name": "date",
+          "type": "STRING"
+        },
+        {
+          "name": "ride_id",
+          "type": "STRING",
+          "sample_values": [
+            "AQL",
+            "WTR4",
+            "DRD",
+            "ELT",
+            "FLF"
+          ]
+        },
+        {
+          "name": "ride_name",
+          "type": "STRING",
+          "sample_values": [
+            "Aqua Lake Raft",
+            "Aqua Loop",
+            "Dizzy Rapids Drop",
+            "Electric Light Tour",
+            "Falcons Flight"
+          ]
+        },
+        {
+          "name": "attendance",
+          "type": "INTEGER"
+        },
+        {
+          "name": "capacity",
+          "type": "INTEGER"
+        },
+        {
+          "name": "operational_hours",
+          "type": "INTEGER"
+        },
+        {
+          "name": "scheduled_maintenance_hours",
+          "type": "INTEGER"
+        },
+        {
+          "name": "uptime",
+          "type": "INTEGER"
+        },
+        {
+          "name": "downtime",
+          "type": "INTEGER"
+        }
+      ],
+      "sample_rows": [
+        {
+          "asset_id": "Aquarabia",
+          "date": "2024-01-01T00:00:00Z",
+          "ride_id": "AQL",
+          "ride_name": "Aqua Lake Raft",
+          "attendance": 3252,
+          "capacity": 3800,
+          "operational_hours": 7,
+          "scheduled_maintenance_hours": 1,
+          "uptime": 6,
+          "downtime": 1
+        },
+        {
+          "asset_id": "Aquarabia",
+          "date": "2024-01-04T00:00:00Z",
+          "ride_id": "AQL",
+          "ride_name": "Aqua Lake Raft",
+          "attendance": 3307,
+          "capacity": 3800,
+          "operational_hours": 6,
+          "scheduled_maintenance_hours": 1,
+          "uptime": 5,
+          "downtime": 1
+        },
+        {
+          "asset_id": "Aquarabia",
+          "date": "2024-01-05T00:00:00Z",
+          "ride_id": "AQL",
+          "ride_name": "Aqua Lake Raft",
+          "attendance": 3660,
+          "capacity": 3800,
+          "operational_hours": 7,
+          "scheduled_maintenance_hours": 1,
+          "uptime": 6,
+          "downtime": 1
+        }
+      ]
+    },
+    "bia_qaspire_dummy.social_media_campaign_data": {
+      "table_name": "bia_qaspire_dummy.social_media_campaign_data",
+      "fields": [
+        {
+          "name": "date",
+          "type": "STRING"
+        },
+        {
+          "name": "asset_id",
+          "type": "STRING",
+          "sample_values": [
+            "Aquarabia",
+            "Six Flags"
+          ]
+        },
+        {
+          "name": "campaign",
+          "type": "STRING",
+          "sample_values": [
+            "Family Day Promotions",
+            "Holiday Fun Fiesta",
+            "Night Rides Extravaganza",
+            "Summer Splash Discount"
+          ]
+        },
+        {
+          "name": "campaignid",
+          "type": "INTEGER"
+        },
+        {
+          "name": "total_reach",
+          "type": "INTEGER"
+        },
+        {
+          "name": "total_engagements",
+          "type": "INTEGER"
+        },
+        {
+          "name": "total_conversions",
+          "type": "INTEGER"
+        },
+        {
+          "name": "aggregate_conversion_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "platforms_instagram_reach",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_instagram_engagements",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_instagram_conversion_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "platforms_instagram_conversions",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_tiktok_reach",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_tiktok_engagements",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_tiktok_conversion_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "platforms_tiktok_conversions",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_youtube_reach",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_youtube_engagements",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_youtube_conversion_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "platforms_youtube_conversions",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_facebook_reach",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_facebook_engagements",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_facebook_conversion_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "platforms_facebook_conversions",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_snapchat_reach",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_snapchat_engagements",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_snapchat_conversion_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "platforms_snapchat_conversions",
+          "type": "INTEGER"
+        }
+      ],
+      "sample_rows": [
+        {
+          "date": "2024-03-30T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "campaign": "Family Day Promotions",
+          "campaignid": 4,
+          "total_reach": 55961,
+          "total_engagements": 4076,
+          "total_conversions": 117,
+          "aggregate_conversion_rate": 2.87,
+          "platforms_instagram_reach": 14389,
+          "platforms_instagram_engagements": 1239,
+          "platforms_instagram_conversion_rate": 3.93,
+          "platforms_instagram_conversions": 49,
+          "platforms_tiktok_reach": 11166,
+          "platforms_tiktok_engagements": 362,
+          "platforms_tiktok_conversion_rate": 2.86,
+          "platforms_tiktok_conversions": 10,
+          "platforms_youtube_reach": 18162,
+          "platforms_youtube_engagements": 1742,
+          "platforms_youtube_conversion_rate": 2.36,
+          "platforms_youtube_conversions": 41,
+          "platforms_facebook_reach": 5883,
+          "platforms_facebook_engagements": 306,
+          "platforms_facebook_conversion_rate": 2.44,
+          "platforms_facebook_conversions": 7,
+          "platforms_snapchat_reach": 6361,
+          "platforms_snapchat_engagements": 427,
+          "platforms_snapchat_conversion_rate": 2.41,
+          "platforms_snapchat_conversions": 10
+        },
+        {
+          "date": "2024-03-04T00:00:00Z",
+          "asset_id": "Six Flags",
+          "campaign": "Family Day Promotions",
+          "campaignid": 4,
+          "total_reach": 51576,
+          "total_engagements": 4484,
+          "total_conversions": 116,
+          "aggregate_conversion_rate": 2.59,
+          "platforms_instagram_reach": 8854,
+          "platforms_instagram_engagements": 1367,
+          "platforms_instagram_conversion_rate": 3.21,
+          "platforms_instagram_conversions": 44,
+          "platforms_tiktok_reach": 11166,
+          "platforms_tiktok_engagements": 546,
+          "platforms_tiktok_conversion_rate": 2.54,
+          "platforms_tiktok_conversions": 14,
+          "platforms_youtube_reach": 16092,
+          "platforms_youtube_engagements": 1800,
+          "platforms_youtube_conversion_rate": 2.03,
+          "platforms_youtube_conversions": 37,
+          "platforms_facebook_reach": 6497,
+          "platforms_facebook_engagements": 341,
+          "platforms_facebook_conversion_rate": 3.02,
+          "platforms_facebook_conversions": 10,
+          "platforms_snapchat_reach": 8967,
+          "platforms_snapchat_engagements": 430,
+          "platforms_snapchat_conversion_rate": 2.52,
+          "platforms_snapchat_conversions": 11
+        },
+        {
+          "date": "2024-03-09T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "campaign": "Family Day Promotions",
+          "campaignid": 4,
+          "total_reach": 33769,
+          "total_engagements": 3762,
+          "total_conversions": 96,
+          "aggregate_conversion_rate": 2.55,
+          "platforms_instagram_reach": 7903,
+          "platforms_instagram_engagements": 964,
+          "platforms_instagram_conversion_rate": 3.26,
+          "platforms_instagram_conversions": 31,
+          "platforms_tiktok_reach": 4120,
+          "platforms_tiktok_engagements": 410,
+          "platforms_tiktok_conversion_rate": 2.44,
+          "platforms_tiktok_conversions": 10,
+          "platforms_youtube_reach": 8553,
+          "platforms_youtube_engagements": 1582,
+          "platforms_youtube_conversion_rate": 1.72,
+          "platforms_youtube_conversions": 27,
+          "platforms_facebook_reach": 5248,
+          "platforms_facebook_engagements": 318,
+          "platforms_facebook_conversion_rate": 3.16,
+          "platforms_facebook_conversions": 10,
+          "platforms_snapchat_reach": 7945,
+          "platforms_snapchat_engagements": 488,
+          "platforms_snapchat_conversion_rate": 3.62,
+          "platforms_snapchat_conversions": 18
+        }
+      ]
+    },
+    "bia_qaspire_dummy.social_media_data": {
+      "table_name": "bia_qaspire_dummy.social_media_data",
+      "fields": [
+        {
+          "name": "date",
+          "type": "STRING"
+        },
+        {
+          "name": "asset_id",
+          "type": "STRING",
+          "sample_values": [
+            "Aquarabia",
+            "Six Flags"
+          ]
+        },
+        {
+          "name": "total_reach",
+          "type": "INTEGER"
+        },
+        {
+          "name": "total_engagements",
+          "type": "INTEGER"
+        },
+        {
+          "name": "total_conversions",
+          "type": "INTEGER"
+        },
+        {
+          "name": "aggregate_conversion_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "platforms_instagram_reach",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_instagram_engagements",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_instagram_conversions",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_instagram_conversion_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "platforms_tiktok_reach",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_tiktok_engagements",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_tiktok_conversions",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_tiktok_conversion_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "platforms_youtube_reach",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_youtube_engagements",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_youtube_conversions",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_youtube_conversion_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "platforms_facebook_reach",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_facebook_engagements",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_facebook_conversions",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_facebook_conversion_rate",
+          "type": "FLOAT"
+        },
+        {
+          "name": "platforms_snapchat_reach",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_snapchat_engagements",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_snapchat_conversions",
+          "type": "INTEGER"
+        },
+        {
+          "name": "platforms_snapchat_conversion_rate",
+          "type": "FLOAT"
+        }
+      ],
+      "sample_rows": [
+        {
+          "date": "2024-07-08T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "total_reach": 52220,
+          "total_engagements": 5353,
+          "total_conversions": 115,
+          "aggregate_conversion_rate": 2.15,
+          "platforms_instagram_reach": 11611,
+          "platforms_instagram_engagements": 1531,
+          "platforms_instagram_conversions": 19,
+          "platforms_instagram_conversion_rate": 1.24,
+          "platforms_tiktok_reach": 6543,
+          "platforms_tiktok_engagements": 398,
+          "platforms_tiktok_conversions": 16,
+          "platforms_tiktok_conversion_rate": 4.02,
+          "platforms_youtube_reach": 15768,
+          "platforms_youtube_engagements": 2217,
+          "platforms_youtube_conversions": 61,
+          "platforms_youtube_conversion_rate": 2.75,
+          "platforms_facebook_reach": 5549,
+          "platforms_facebook_engagements": 303,
+          "platforms_facebook_conversions": 5,
+          "platforms_facebook_conversion_rate": 1.65,
+          "platforms_snapchat_reach": 12749,
+          "platforms_snapchat_engagements": 904,
+          "platforms_snapchat_conversions": 14,
+          "platforms_snapchat_conversion_rate": 1.55
+        },
+        {
+          "date": "2024-09-29T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "total_reach": 65632,
+          "total_engagements": 6183,
+          "total_conversions": 170,
+          "aggregate_conversion_rate": 2.75,
+          "platforms_instagram_reach": 18309,
+          "platforms_instagram_engagements": 1214,
+          "platforms_instagram_conversions": 58,
+          "platforms_instagram_conversion_rate": 4.78,
+          "platforms_tiktok_reach": 10902,
+          "platforms_tiktok_engagements": 1631,
+          "platforms_tiktok_conversions": 34,
+          "platforms_tiktok_conversion_rate": 2.08,
+          "platforms_youtube_reach": 15114,
+          "platforms_youtube_engagements": 1004,
+          "platforms_youtube_conversions": 38,
+          "platforms_youtube_conversion_rate": 3.78,
+          "platforms_facebook_reach": 8652,
+          "platforms_facebook_engagements": 508,
+          "platforms_facebook_conversions": 5,
+          "platforms_facebook_conversion_rate": 0.98,
+          "platforms_snapchat_reach": 12655,
+          "platforms_snapchat_engagements": 1826,
+          "platforms_snapchat_conversions": 35,
+          "platforms_snapchat_conversion_rate": 1.92
+        },
+        {
+          "date": "2024-01-03T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "total_reach": 57865,
+          "total_engagements": 4991,
+          "total_conversions": 181,
+          "aggregate_conversion_rate": 3.63,
+          "platforms_instagram_reach": 19446,
+          "platforms_instagram_engagements": 1643,
+          "platforms_instagram_conversions": 79,
+          "platforms_instagram_conversion_rate": 4.81,
+          "platforms_tiktok_reach": 5666,
+          "platforms_tiktok_engagements": 366,
+          "platforms_tiktok_conversions": 15,
+          "platforms_tiktok_conversion_rate": 4.1,
+          "platforms_youtube_reach": 17420,
+          "platforms_youtube_engagements": 1282,
+          "platforms_youtube_conversions": 23,
+          "platforms_youtube_conversion_rate": 1.79,
+          "platforms_facebook_reach": 6665,
+          "platforms_facebook_engagements": 523,
+          "platforms_facebook_conversions": 6,
+          "platforms_facebook_conversion_rate": 1.15,
+          "platforms_snapchat_reach": 8668,
+          "platforms_snapchat_engagements": 1177,
+          "platforms_snapchat_conversions": 58,
+          "platforms_snapchat_conversion_rate": 4.93
+        }
+      ]
+    },
+    "bia_qaspire_dummy.sponsorship_data": {
+      "table_name": "bia_qaspire_dummy.sponsorship_data",
+      "fields": [
+        {
+          "name": "date",
+          "type": "STRING"
+        },
+        {
+          "name": "asset_id",
+          "type": "STRING",
+          "sample_values": [
+            "Aquarabia",
+            "Six Flags"
+          ]
+        },
+        {
+          "name": "sponsor",
+          "type": "STRING",
+          "sample_values": [
+            "Sponsor A",
+            "Sponsor B",
+            "Sponsor C",
+            "Sponsor D",
+            "Sponsor E"
+          ]
+        },
+        {
+          "name": "tier",
+          "type": "STRING",
+          "sample_values": [
+            "tier_1",
+            "tier_2",
+            "tier_3"
+          ]
+        },
+        {
+          "name": "sponsorship_amount",
+          "type": "INTEGER"
+        },
+        {
+          "name": "value_in_kind",
+          "type": "INTEGER"
+        },
+        {
+          "name": "total_value",
+          "type": "INTEGER"
+        }
+      ],
+      "sample_rows": [
+        {
+          "date": "1/1/2023",
+          "asset_id": "Aquarabia",
+          "sponsor": "Sponsor A",
+          "tier": "tier_1",
+          "sponsorship_amount": 1750000,
+          "value_in_kind": 750000,
+          "total_value": 2500000
+        },
+        {
+          "date": "4/1/2023",
+          "asset_id": "Aquarabia",
+          "sponsor": "Sponsor A",
+          "tier": "tier_1",
+          "sponsorship_amount": 1750000,
+          "value_in_kind": 750000,
+          "total_value": 2500000
+        },
+        {
+          "date": "7/1/2023",
+          "asset_id": "Aquarabia",
+          "sponsor": "Sponsor A",
+          "tier": "tier_1",
+          "sponsorship_amount": 1750000,
+          "value_in_kind": 750000,
+          "total_value": 2500000
+        }
+      ]
+    },
+    "bia_qaspire_dummy.website_data": {
+      "table_name": "bia_qaspire_dummy.website_data",
+      "fields": [
+        {
+          "name": "date",
+          "type": "STRING"
+        },
+        {
+          "name": "asset_id",
+          "type": "STRING",
+          "sample_values": [
+            "Aquarabia",
+            "Six Flags"
+          ]
+        },
+        {
+          "name": "sessions",
+          "type": "INTEGER"
+        },
+        {
+          "name": "session_duration",
+          "type": "FLOAT"
+        },
+        {
+          "name": "bounce_rate",
+          "type": "FLOAT"
+        }
+      ],
+      "sample_rows": [
+        {
+          "date": "2024-03-12T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "sessions": 395,
+          "session_duration": 4.41,
+          "bounce_rate": 41.88
+        },
+        {
+          "date": "2024-03-19T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "sessions": 398,
+          "session_duration": 4.78,
+          "bounce_rate": 45.3
+        },
+        {
+          "date": "2024-03-09T00:00:00Z",
+          "asset_id": "Aquarabia",
+          "sessions": 399,
+          "session_duration": 4.5,
+          "bounce_rate": 41.36
+        }
+      ]
+    }
+  }
+}

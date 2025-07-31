@@ -102,14 +102,13 @@ If a user asks: 'which is the most expensive item on the menu?' you should:
 def execute_query_tool(query: str) -> str:
     """Execute a SQL query against BigQuery and return the results as a JSON string."""
 
-    client = bigquery.Client()
     try:
-      result = client.query_and_wait(query)
-      r = [dict(row) for row in result]
-      return str(json.dumps(str(r)))
+        result = bq_client.query_and_wait(query)
+        r = [dict(row) for row in result]
+        return str(json.dumps(str(r)))
     except Exception as e:
-      error_message = f"BigQuery Error: {str(e)}"
-      return json.dumps({"BigQuery error": error_message})
+        error_message = f"BigQuery Error: {str(e)}"
+        return json.dumps({"BigQuery error": error_message})
 
 class SubmitFinalAnswer(BaseModel):
     """Represents the final answer submitted by the agent."""
@@ -125,8 +124,9 @@ root_agent = LlmAgent(
     instruction=sys_message,
     generate_content_config=types.GenerateContentConfig(
         temperature=0.2,
-        max_output_tokens=250
+        max_output_tokens=3000
     ),
-    tools=[execute_query_tool],
+    tools=[execute_query_tool, SubmitFinalAnswer],
     include_contents='default'
 )
+ 
