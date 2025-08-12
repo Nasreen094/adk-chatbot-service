@@ -145,65 +145,66 @@ export const Chat: React.FC = () => {
 		);
 
 		try {
-	const response = await fetch("/api/chat", {
-		method: "POST",
-		headers: { "Content-Type": "application/json" },
-		body: JSON.stringify({ content: message }),
-		cache: "no-cache",
-	});
+			const response = await fetch("/api/chat", {
+				method: "POST",
+				headers: { "Content-Type": "application/json" },
+				body: JSON.stringify({ content: message }),
+				cache: "no-cache",
+			});
+			if (!response.body) throw new Error("No response body");
 
-	if (!response.body) throw new Error("No response body");
+			const reader = response.body.getReader();
+			const decoder = new TextDecoder();
+			let buffer = "";
 
-	const reader = response.body.getReader();
-	const decoder = new TextDecoder();
-	let buffer = "";
+			while (true) {
+				const { value, done } = await reader.read();
+				if (done) break;
 
-	while (true) {
-		const { value, done } = await reader.read();
-		if (done) break;
+				const chunk = decoder.decode(value, { stream: true });
+				console.log("Chunk received:", chunk);
+				buffer += chunk;
 
-		const chunk = decoder.decode(value, { stream: true });
-		console.log("Chunk received:", chunk);
-		buffer += chunk;
-
-		// Split on newline to support multiple SSE data lines
-		const lines = buffer.split("\n");
-
-		for (const line of lines) {
-			if (line.startsWith("data: ")) {
-				const jsonStr = line.replace("data: ", "").trim();
-
-				try {
-					const json = JSON.parse(jsonStr);
-
-					// Extract partial or full model response
-					if (
-						json?.content?.parts &&
-						Array.isArray(json.content.parts) &&
-						json.content.parts[0]?.text
-					) {
-						const newChunk = json.content.parts[0].text;
+				if (isBufferComplete(buffer)) {
+					try {
+						const parsed = JSON.parse(buffer);
 						dispatch(
 							updateMessageChunk({
 								chatId: chatId ?? tempChatId,
 								messageId: botMessageId,
-								newChunk,
+								newChunk: parsed.content,
+							})
+						);
+						buffer = "";
+					} catch (error) {
+						console.log("Error parsing buffer:", error);
+						const partialMatch = buffer.match(/"content":\s*"([^"]*)/);
+						if (partialMatch) {
+							dispatch(
+								updateMessageChunk({
+									chatId: chatId ?? tempChatId,
+									messageId: botMessageId,
+									newChunk: partialMatch[1],
+								})
+							);
+						}
+					}
+				} else {
+					const partialMatch = buffer.match(/"content":\s*"([^"]*)/);
+					if (partialMatch) {
+						dispatch(
+							updateMessageChunk({
+								chatId: chatId ?? tempChatId,
+								messageId: botMessageId,
+								newChunk: partialMatch[1],
 							})
 						);
 					}
-				} catch (error) {
-					console.warn("Skipping non-JSON line:", line);
 				}
 			}
+		} catch (error) {
+			console.error("Streaming error:", error);
 		}
-
-		// Clear buffer if you're done processing this chunk
-		buffer = "";
-	}
-} catch (error) {
-	console.error("Streaming error:", error);
-}
-
 	};
 
 	// Form submit now simply calls the consolidated onSendMessage function.
