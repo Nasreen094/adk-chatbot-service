@@ -268,7 +268,7 @@ export const Chat: React.FC<{ conversationId?: string }> = ({ conversationId }) 
       // Use client-side streaming
       await sendMessage({
         query: message,
-        user_id: "frontend_user_1234",
+        user_id: "nvalappil",
         conversation_id: conversationId ?? chatId ?? tempChatId
       });
     },

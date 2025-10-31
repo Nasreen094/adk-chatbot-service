@@ -56,7 +56,7 @@ const PrefilledMessages = ({ onPrefilledMessage }: PrefilledMessagesProps) => {
   useEffect(() => {
     const fetchQuestions = async () => {
       setLoading(true);
-      const user_id = "frontend_user_12";
+      const user_id = "nvalappil";
 
       // Helper: timeout promise
       const timeoutPromise = new Promise<never>((_, reject) =>
