@@ -17,7 +17,7 @@ const PrefilledMessages = ({ onPrefilledMessage }: PrefilledMessagesProps) => {
     () => [
       {
         question:
-          "Giive me a financial report on revenue breakdown of Six Flags for Q4 2024?",
+          "Give me a financial report on revenue breakdown of Six Flags for Q4 2024?",
         type: "text",
       },
       {

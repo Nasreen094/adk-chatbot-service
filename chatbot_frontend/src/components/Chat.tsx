@@ -270,6 +270,7 @@ export const Chat: React.FC<{ conversationId?: string }> = ({ conversationId }) 
         query: message,
         user_id: "nvalappil",
         conversation_id: conversationId ?? chatId ?? tempChatId
+        
       });
     },
     [chatId, chats, dispatch],

@@ -46,7 +46,7 @@ export const useStreamingChatWithJSON = ({
 						query: message.query,
 						user_id: message.user_id,
 						conversation_id: message.conversation_id,
-					}),
+						
 				});
 
 				if (!response.ok) {

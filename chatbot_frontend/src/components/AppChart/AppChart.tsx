@@ -396,34 +396,29 @@ const AppChartComponent: React.FC<ChartProps> = ({
 				<YAxis
 					yAxisId="left"
 					type={finalYAxis.type as any}
-					domain={["auto", "auto"]}
+					domain={finalYAxis.domain}
 					tickFormatter={finalYAxis.tickFormatter}
-					tickCount={finalYAxis.tickCount || 5}
-					allowDecimals={finalYAxis.allowDecimals ?? true}
-					axisLine={{ stroke: "#ccc" }}
-					tickLine={{ stroke: "#ccc" }}
-					tick={{ fill: "#000", fontSize: 12 }}
+					tickCount={finalYAxis.tickCount}
+					allowDecimals={finalYAxis.allowDecimals}
 					aria-label={`Y Axis: ${finalYAxis.label}`}
+					className="text-xs font-medium text-gray-500"
 				/>
 				{finalRightYAxis && (
 					<YAxis
 						yAxisId="right"
 						orientation="right"
 						type={finalRightYAxis.type as any}
-						domain={["auto", "auto"]}
+						domain={finalRightYAxis.domain}
 						tickFormatter={finalRightYAxis.tickFormatter}
-						tickCount={finalRightYAxis.tickCount || 5}
-						allowDecimals={finalRightYAxis.allowDecimals ?? true}
-						axisLine={{ stroke: "#ccc" }}
-						tickLine={{ stroke: "#ccc" }}
-						tick={{ fill: "#000", fontSize: 12 }}
+						tickCount={finalRightYAxis.tickCount}
+						allowDecimals={finalRightYAxis.allowDecimals}
 						aria-label={`Right Y Axis: ${finalRightYAxis.label}`}
+						className="text-xs font-medium text-gray-500"
 					/>
 				)}
 			</>
 		);
 	}, [finalYAxis, finalRightYAxis, chartType]);
-
 
 	const periodLabel = useMemo(() => getPeriodLabel(range), [range]);
 
