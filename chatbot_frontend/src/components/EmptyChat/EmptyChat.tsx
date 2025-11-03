@@ -51,7 +51,7 @@ const EmptyChat = ({ onPrefilledMessage }: EmptyChatProps) => {
 				</svg>
 				<div>
 					<div className="text-center text-black text-[42.19px] font-normal font-['Proxima Nova']">
-						Welcome to Q-RAWA
+						Welcome to Qiddiya&apos;s AI Agent
 					</div>
 				</div>
 				<div>

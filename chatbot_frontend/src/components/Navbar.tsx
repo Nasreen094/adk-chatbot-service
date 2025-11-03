@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
 							<div className="flex flex-col text-center lg:text-left">
 								<div>
 									<span className="text-white text-2xl font-bold font-['Proxima Nova']">
-										Q-RAWA {" "}
+										Qiddiya&apos;s AI Agent {" "}
 									</span>
 									
 									{/*<span className="text-white text-2xl font-normal font-['Proxima Nova']">

@@ -60,7 +60,7 @@ const PrefilledMessages = ({ onPrefilledMessage }: PrefilledMessagesProps) => {
 
       // Helper: timeout promise
       const timeoutPromise = new Promise<never>((_, reject) =>
-        setTimeout(() => reject(new Error("Timeout after 2 seconds")), 2000)
+        setTimeout(() => reject(new Error("Timeout after 1 seconds")), 1000)
       );
 
       // Backend fetch promise

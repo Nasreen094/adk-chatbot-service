@@ -617,7 +617,7 @@ export const Chat: React.FC<{ conversationId?: string }> = ({ conversationId }) 
           <User color="white" className="h-5 w-5 text-primary" />
         ) : (
           <div className="font-['Proxima Nova'] text-xl font-bold text-white">
-            R
+            Q
           </div>
         )}
       </div>

@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "Q-RAWA",
-	description: "Q-RAWA",
+	title: "Qiddiya's AI Agent",
+	description: "Qiddiya's AI Agent",
 };
 
 export default function RootLayout({
