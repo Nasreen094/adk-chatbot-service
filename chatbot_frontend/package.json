@@ -19,7 +19,7 @@
 		"@radix-ui/react-tabs": "^1.1.13",
 		"@radix-ui/react-tooltip": "^1.1.8",
 		"@reduxjs/toolkit": "^2.5.0",
-		"ai": "latest",
+		"ai": "^5.0.89",
 		"babel-plugin-react-compiler": "^19.0.0-beta-27714ef-20250124",
 		"class-variance-authority": "^0.7.1",
 		"clsx": "^2.1.1",
