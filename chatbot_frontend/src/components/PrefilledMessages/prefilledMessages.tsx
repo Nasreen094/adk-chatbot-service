@@ -65,7 +65,7 @@ const PrefilledMessages = ({ onPrefilledMessage }: PrefilledMessagesProps) => {
 
       // Backend fetch promise
       const fetchPromise = fetch(
-        "https://qaspire-rawa-agent-871068864404.us-central1.run.app/api/chat/v1/prefilled",
+        "https://rawa-agent1-1060681624080.us-central1.run.app/api/chat/v1/prefilled",
         {
           method: "POST",
           headers: {

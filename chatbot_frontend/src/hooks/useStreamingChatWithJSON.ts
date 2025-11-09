@@ -29,7 +29,7 @@ export const useStreamingChatWithJSON = ({
       setError(null);
 
       try {
-        const backendBaseUrl = "https://qaspire-rawa-agent-871068864404.us-central1.run.app/api/chat/v1";
+        const backendBaseUrl = "https://rawa-agent1-1060681624080.us-central1.run.app/api/chat/v1";
         if (!backendBaseUrl) {
           throw new Error(
             "Environment variable NEXT_PUBLIC_CHATBOT_BACKEND_URL is not set. Please define it in your environment (e.g., .env.local)."
