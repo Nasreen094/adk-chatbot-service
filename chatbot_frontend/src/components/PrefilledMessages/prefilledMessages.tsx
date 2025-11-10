@@ -17,31 +17,31 @@ const PrefilledMessages = ({ onPrefilledMessage }: PrefilledMessagesProps) => {
     () => [
       {
         question:
-          "Give me a financial report on revenue breakdown of Six Flags for Q4 2024?",
+          "Give me a report on revenue breakdown of Six Flags for Q3",
         type: "text",
       },
       {
         question:
-          "Which ride in Six Flags has the highest average monthly attendance in 2024?",
+          "Which ride in Six Flags has the highest average monthly attendance?",
         type: "text",
       },
       {
-        question: "How much is the %change in payroll cost from 2023 to 2024?",
-        type: "text",
-      },
-      {
-        question:
-          "Which event has brought the highest revenue in Six Flags and Aquarabia?",
+        question: "How’s the overall park utilization of Aquarabia last month?",
         type: "text",
       },
       {
         question:
-          "How many safety incidents were reported in Six Flags in October 2024?",
+          "Which event has brought the highest revenue in Aquarabia?",
         type: "text",
       },
       {
         question:
-          "Provide a tabular report on total labour hours for Six Flags and Aquarabia in December 2024?",
+          "How many safety incidents were reported in Six Flags last month?",
+        type: "text",
+      },
+      {
+        question:
+          "Which campaign brought the most visitors on Q3?",
         type: "text",
       },
     ],
