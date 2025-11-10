@@ -1,183 +1,37 @@
 date,asset_id,event_type,event_name,category,attendees,revenue
-2025-01-02 00:00:00+00:00,Aquarabia,Conferences,Tourism & Hospitality Forum 2024,Educational,765,269980.97
-2025-01-02 00:00:00+00:00,Six Flags,Meetings,Annual Planning Session 2024,Educational,371,90387.85
-2025-01-02 00:00:00+00:00,Six Flags,Meetings,Quarterly Business Review 2024,Corporate,416,152376.02
-2025-01-03 00:00:00+00:00,Six Flags,Meetings,Executive Roundtable 2024,Corporate,383,94075.46
-2025-01-03 00:00:00+00:00,Six Flags,Meetings,Strategic Planning Forum 2024,Educational,323,100447.19
-2025-01-05 00:00:00+00:00,Six Flags,Exhibitions,Entertainment Industry Fair 2024,Educational,793,256587.19
-2025-01-06 00:00:00+00:00,Aquarabia,Conferences,Tourism Leadership Summit 2024,Technology,545,194537.34
-2025-01-06 00:00:00+00:00,Six Flags,Conferences,Theme Park Technology Conference 2024,Entertainment,578,163564.27
-2025-01-09 00:00:00+00:00,Aquarabia,Meetings,Quarterly Business Review 2024,Technology,417,134089.77
-2025-01-10 00:00:00+00:00,Six Flags,Conferences,Tourism & Hospitality Forum 2024,Technology,848,190150.82
-2025-01-10 00:00:00+00:00,Aquarabia,Conferences,Customer Experience Summit 2024,Educational,834,201114.78
-2025-01-12 00:00:00+00:00,Six Flags,Conferences,Tourism & Hospitality Forum 2024,Technology,593,144797.6
-2025-01-13 00:00:00+00:00,Six Flags,Conferences,Tourism & Hospitality Forum 2024,Educational,657,177849.08
-2025-01-15 00:00:00+00:00,Six Flags,Incentives,Success Summit 2024,Educational,748,171809.38
-2025-01-17 00:00:00+00:00,Six Flags,Meetings,Leadership Summit 2024,Entertainment,359,121594.42
-2025-01-19 00:00:00+00:00,Aquarabia,Exhibitions,Innovation Exhibition 2024,Corporate,928,319236.79
-2025-01-19 00:00:00+00:00,Six Flags,Conferences,Sustainability Congress 2024,Technology,788,270264.04
-2025-01-20 00:00:00+00:00,Aquarabia,Meetings,Strategic Planning Forum 2024,Technology,414,107083.41
-2025-01-20 00:00:00+00:00,Aquarabia,Meetings,Management Review 2024,Educational,254,85645.02
-2025-01-21 00:00:00+00:00,Aquarabia,Exhibitions,Digital Solutions Exhibition 2024,Corporate,1128,303634.82
-2025-01-22 00:00:00+00:00,Aquarabia,Meetings,Quarterly Business Review 2024,Entertainment,494,159935.66
-2025-01-23 00:00:00+00:00,Six Flags,Conferences,Tourism & Hospitality Forum 2024,Technology,838,217370.74
-2025-01-23 00:00:00+00:00,Aquarabia,Conferences,Digital Innovation Conference 2024,Technology,635,207991.51
-2025-01-26 00:00:00+00:00,Aquarabia,Incentives,Peak Performers Retreat 2024,Technology,760,225829.82
-2025-01-28 00:00:00+00:00,Aquarabia,Incentives,Champions Club Gathering 2024,Technology,775,246253.61
-2025-02-02 00:00:00+00:00,Aquarabia,Incentives,Success Summit 2024,Entertainment,313,91793.59
-2025-02-02 00:00:00+00:00,Six Flags,Meetings,Leadership Summit 2024,Educational,286,88395.05
-2025-02-03 00:00:00+00:00,Six Flags,Exhibitions,Entertainment Industry Fair 2024,Educational,890,269068.8
-2025-02-05 00:00:00+00:00,Aquarabia,Meetings,Strategic Planning Forum 2024,Corporate,484,128219.98
-2025-02-07 00:00:00+00:00,Aquarabia,Conferences,Theme Park Technology Conference 2024,Corporate,680,226560.19
-2025-02-09 00:00:00+00:00,Six Flags,Incentives,Peak Performers Retreat 2024,Technology,506,128808.13
-2025-02-10 00:00:00+00:00,Aquarabia,Meetings,Stakeholder Assembly 2024,Corporate,385,89604.01
-2025-02-11 00:00:00+00:00,Aquarabia,Meetings,Board Meeting 2024,Educational,412,134489.86
-2025-02-13 00:00:00+00:00,Six Flags,Meetings,Executive Roundtable 2024,Entertainment,297,79419.66
-2025-02-13 00:00:00+00:00,Aquarabia,Meetings,Annual Planning Session 2024,Entertainment,291,89759.19
-2025-02-17 00:00:00+00:00,Aquarabia,Conferences,Tourism & Hospitality Forum 2024,Entertainment,862,200366.68
-2025-02-24 00:00:00+00:00,Six Flags,Meetings,Strategic Planning Forum 2024,Corporate,465,125433.37
-2025-02-26 00:00:00+00:00,Aquarabia,Meetings,Management Review 2024,Educational,386,106513.31
-2025-03-03 00:00:00+00:00,Aquarabia,Meetings,Quarterly Business Review 2024,Educational,355,95714.45
-2025-03-03 00:00:00+00:00,Six Flags,Incentives,Diamond Club Assembly 2024,Educational,482,161594.47
-2025-03-03 00:00:00+00:00,Six Flags,Exhibitions,Entertainment Tech Expo 2024,Corporate,1147,300122.56
-2025-03-07 00:00:00+00:00,Aquarabia,Conferences,Future of Entertainment Summit 2024,Technology,775,190093.07
-2025-03-15 00:00:00+00:00,Six Flags,Exhibitions,Future Tech Showcase 2024,Corporate,1147,278765.07
-2025-03-16 00:00:00+00:00,Six Flags,Conferences,Entertainment Industry Forum 2024,Educational,624,191053.19
-2025-03-17 00:00:00+00:00,Six Flags,Incentives,Champions Club Gathering 2024,Corporate,415,110617.76
-2025-03-20 00:00:00+00:00,Aquarabia,Incentives,Platinum Circle Event 2024,Educational,629,172101.77
-2025-03-21 00:00:00+00:00,Aquarabia,Conferences,Tourism & Hospitality Forum 2024,Educational,716,198541.15
-2025-03-21 00:00:00+00:00,Six Flags,Conferences,Theme Park Technology Conference 2024,Educational,962,308371.59
-2025-03-23 00:00:00+00:00,Six Flags,Meetings,Quarterly Business Review 2024,Educational,323,77924.82
-2025-03-24 00:00:00+00:00,Aquarabia,Exhibitions,Tourism Market Exhibition 2024,Entertainment,1191,280059.61
-2025-03-26 00:00:00+00:00,Aquarabia,Exhibitions,Future Tech Showcase 2024,Technology,792,188646.41
-2025-03-26 00:00:00+00:00,Six Flags,Meetings,Executive Roundtable 2024,Entertainment,320,77419.2
-2025-03-27 00:00:00+00:00,Aquarabia,Incentives,Leadership Recognition 2024,Corporate,327,120878.95
-2025-03-27 00:00:00+00:00,Six Flags,Incentives,Champions Club Gathering 2024,Corporate,783,186228.09
-2025-04-04 00:00:00+00:00,Six Flags,Meetings,Executive Roundtable 2024,Corporate,364,107317.86
-2025-04-06 00:00:00+00:00,Six Flags,Conferences,Customer Experience Summit 2024,Educational,740,172213.18
-2025-04-06 00:00:00+00:00,Aquarabia,Exhibitions,Tourism & Travel Showcase 2024,Corporate,1171,312265.01
-2025-04-07 00:00:00+00:00,Six Flags,Meetings,Management Review 2024,Technology,457,111297.45
-2025-04-08 00:00:00+00:00,Six Flags,Conferences,Theme Park Technology Conference 2024,Entertainment,844,289766.79
-2025-04-10 00:00:00+00:00,Six Flags,Conferences,Tourism Leadership Summit 2024,Educational,815,211927.69
-2025-04-14 00:00:00+00:00,Six Flags,Meetings,Innovation Workshop 2024,Technology,462,156414.09
-2025-04-14 00:00:00+00:00,Six Flags,Meetings,Leadership Summit 2024,Technology,266,72817.68
-2025-04-14 00:00:00+00:00,Six Flags,Meetings,Quarterly Business Review 2024,Corporate,264,61463.54
-2025-04-16 00:00:00+00:00,Aquarabia,Incentives,Excellence Awards 2024,Entertainment,359,118284.08
-2025-04-16 00:00:00+00:00,Six Flags,Meetings,Strategic Planning Forum 2024,Educational,375,104181.79
-2025-04-16 00:00:00+00:00,Six Flags,Conferences,Future of Entertainment Summit 2024,Corporate,707,241494.09
-2025-04-19 00:00:00+00:00,Six Flags,Conferences,Operations Excellence Conference 2024,Educational,639,194616.88
-2025-04-19 00:00:00+00:00,Six Flags,Meetings,Executive Roundtable 2024,Technology,350,115250.44
-2025-04-19 00:00:00+00:00,Six Flags,Meetings,Strategic Planning Forum 2024,Corporate,265,59845.5
-2025-04-21 00:00:00+00:00,Aquarabia,Conferences,Sustainability Congress 2024,Entertainment,619,208665.01
-2025-04-23 00:00:00+00:00,Aquarabia,Meetings,Strategic Planning Forum 2024,Educational,295,103469.73
-2025-04-23 00:00:00+00:00,Aquarabia,Exhibitions,Innovation Exhibition 2024,Entertainment,972,242881.2
-2025-04-24 00:00:00+00:00,Aquarabia,Meetings,Annual Planning Session 2024,Technology,408,114150.48
-2025-04-24 00:00:00+00:00,Aquarabia,Meetings,Executive Roundtable 2024,Educational,279,73617.75
-2025-05-01 00:00:00+00:00,Six Flags,Incentives,Success Summit 2024,Entertainment,485,172062.37
-2025-05-02 00:00:00+00:00,Aquarabia,Incentives,Platinum Circle Event 2024,Corporate,388,94529.01
-2025-05-03 00:00:00+00:00,Aquarabia,Conferences,Digital Innovation Conference 2024,Corporate,611,159371.57
-2025-05-04 00:00:00+00:00,Six Flags,Meetings,Executive Roundtable 2024,Corporate,344,126413.74
-2025-05-07 00:00:00+00:00,Six Flags,Exhibitions,Industry Leaders Exhibition 2024,Corporate,1166,273279.95
-2025-05-07 00:00:00+00:00,Aquarabia,Exhibitions,Innovation Exhibition 2024,Corporate,1042,353056.54
-2025-05-11 00:00:00+00:00,Aquarabia,Conferences,Tourism & Hospitality Forum 2024,Entertainment,826,262110.38
-2025-05-12 00:00:00+00:00,Aquarabia,Incentives,Elite Circle Meeting 2024,Corporate,699,207965.14
-2025-05-13 00:00:00+00:00,Aquarabia,Meetings,Quarterly Business Review 2024,Technology,404,129757.01
-2025-05-16 00:00:00+00:00,Aquarabia,Meetings,Leadership Summit 2024,Technology,368,86414.91
-2025-05-16 00:00:00+00:00,Aquarabia,Conferences,Tourism Leadership Summit 2024,Corporate,726,196279.8
-2025-05-19 00:00:00+00:00,Six Flags,Conferences,Theme Park Technology Conference 2024,Entertainment,667,171036.87
-2025-05-20 00:00:00+00:00,Six Flags,Incentives,Excellence Awards 2024,Technology,800,245265.78
-2025-05-22 00:00:00+00:00,Aquarabia,Meetings,Board Meeting 2024,Corporate,263,75643.2
-2025-05-23 00:00:00+00:00,Six Flags,Incentives,Diamond Club Assembly 2024,Corporate,427,151161.55
-2025-05-24 00:00:00+00:00,Six Flags,Meetings,Innovation Workshop 2024,Entertainment,387,87849.81
-2025-06-01 00:00:00+00:00,Aquarabia,Incentives,Success Summit 2024,Entertainment,739,237438.87
-2025-06-02 00:00:00+00:00,Six Flags,Conferences,Future of Entertainment Summit 2024,Corporate,964,328732.28
-2025-06-03 00:00:00+00:00,Aquarabia,Conferences,Tourism & Hospitality Forum 2024,Technology,512,152589.09
-2025-06-07 00:00:00+00:00,Aquarabia,Incentives,Top Achievers Convention 2024,Entertainment,347,89761.61
-2025-06-07 00:00:00+00:00,Aquarabia,Conferences,Theme Park Technology Conference 2024,Corporate,684,162730.43
-2025-06-08 00:00:00+00:00,Aquarabia,Meetings,Stakeholder Assembly 2024,Entertainment,466,142463.56
-2025-06-09 00:00:00+00:00,Aquarabia,Meetings,Partners Symposium 2024,Educational,482,107170.72
-2025-06-10 00:00:00+00:00,Six Flags,Exhibitions,Entertainment Tech Expo 2024,Technology,877,196928.0
-2025-06-14 00:00:00+00:00,Aquarabia,Conferences,Entertainment Industry Forum 2024,Corporate,786,262595.31
-2025-06-16 00:00:00+00:00,Aquarabia,Conferences,Sustainability Congress 2024,Educational,611,152099.84
-2025-06-16 00:00:00+00:00,Six Flags,Conferences,Entertainment Industry Forum 2024,Technology,595,138160.77
-2025-06-19 00:00:00+00:00,Six Flags,Exhibitions,Future Tech Showcase 2024,Corporate,1120,349051.03
-2025-06-19 00:00:00+00:00,Aquarabia,Meetings,Annual Planning Session 2024,Technology,478,161100.12
-2025-06-20 00:00:00+00:00,Six Flags,Exhibitions,Tourism & Travel Showcase 2024,Corporate,870,270707.06
-2025-06-22 00:00:00+00:00,Aquarabia,Exhibitions,Industry Leaders Exhibition 2024,Corporate,985,238282.79
-2025-06-23 00:00:00+00:00,Six Flags,Incentives,Peak Performers Retreat 2024,Educational,348,126801.16
-2025-06-23 00:00:00+00:00,Six Flags,Incentives,Excellence Awards 2024,Technology,322,95868.06
-2025-06-24 00:00:00+00:00,Aquarabia,Meetings,Annual Planning Session 2024,Educational,349,128792.88
-2025-07-01 00:00:00+00:00,Aquarabia,Meetings,Leadership Summit 2024,Entertainment,361,98240.54
-2025-07-01 00:00:00+00:00,Six Flags,Incentives,Diamond Club Assembly 2024,Corporate,789,199075.37
-2025-07-03 00:00:00+00:00,Six Flags,Incentives,Diamond Club Assembly 2024,Corporate,353,115781.94
-2025-07-03 00:00:00+00:00,Six Flags,Conferences,Customer Experience Summit 2024,Educational,516,179373.35
-2025-07-04 00:00:00+00:00,Aquarabia,Conferences,Digital Innovation Conference 2024,Entertainment,519,168128.26
-2025-07-06 00:00:00+00:00,Aquarabia,Conferences,Theme Park Technology Conference 2024,Corporate,826,280709.24
-2025-07-07 00:00:00+00:00,Aquarabia,Conferences,Future of Entertainment Summit 2024,Corporate,593,219057.88
-2025-07-07 00:00:00+00:00,Six Flags,Meetings,Innovation Workshop 2024,Technology,262,60522.45
-2025-07-08 00:00:00+00:00,Aquarabia,Meetings,Leadership Summit 2024,Technology,255,75021.44
-2025-07-08 00:00:00+00:00,Aquarabia,Meetings,Partners Symposium 2024,Corporate,311,108781.56
-2025-07-11 00:00:00+00:00,Six Flags,Meetings,Annual Planning Session 2024,Entertainment,256,70540.25
-2025-07-14 00:00:00+00:00,Aquarabia,Incentives,Champions Club Gathering 2024,Corporate,587,177528.57
-2025-07-15 00:00:00+00:00,Aquarabia,Exhibitions,Theme Park Innovations Show 2024,Educational,879,213084.77
-2025-07-18 00:00:00+00:00,Six Flags,Meetings,Stakeholder Assembly 2024,Entertainment,484,152927.24
-2025-07-20 00:00:00+00:00,Six Flags,Meetings,Stakeholder Assembly 2024,Educational,297,81756.65
-2025-07-20 00:00:00+00:00,Six Flags,Incentives,Peak Performers Retreat 2024,Entertainment,477,174084.49
-2025-07-24 00:00:00+00:00,Aquarabia,Conferences,Sustainability Congress 2024,Entertainment,611,148270.94
-2025-07-25 00:00:00+00:00,Six Flags,Meetings,Board Meeting 2024,Technology,435,153760.49
-2025-07-26 00:00:00+00:00,Six Flags,Meetings,Management Review 2024,Corporate,500,184937.14
-2025-08-01 00:00:00+00:00,Aquarabia,Incentives,Champions Club Gathering 2024,Technology,563,126658.11
-2025-08-01 00:00:00+00:00,Six Flags,Incentives,Excellence Awards 2024,Corporate,440,143489.4
-2025-08-03 00:00:00+00:00,Six Flags,Conferences,Future of Entertainment Summit 2024,Educational,846,278224.18
-2025-08-04 00:00:00+00:00,Six Flags,Exhibitions,Industry Leaders Exhibition 2024,Entertainment,753,278185.55
-2025-08-06 00:00:00+00:00,Six Flags,Conferences,Sustainability Congress 2024,Educational,829,200964.41
-2025-08-11 00:00:00+00:00,Aquarabia,Incentives,Diamond Club Assembly 2024,Corporate,360,117661.43
-2025-08-12 00:00:00+00:00,Aquarabia,Conferences,Tourism Leadership Summit 2024,Educational,707,241115.81
-2025-08-18 00:00:00+00:00,Six Flags,Meetings,Leadership Summit 2024,Technology,263,79160.69
-2025-08-20 00:00:00+00:00,Aquarabia,Conferences,Guest Experience Symposium 2024,Technology,984,225912.96
-2025-08-22 00:00:00+00:00,Six Flags,Meetings,Stakeholder Assembly 2024,Corporate,299,95795.66
-2025-08-22 00:00:00+00:00,Aquarabia,Incentives,Champions Club Gathering 2024,Technology,404,96564.29
-2025-08-25 00:00:00+00:00,Aquarabia,Meetings,Leadership Summit 2024,Educational,432,100548.87
-2025-08-25 00:00:00+00:00,Six Flags,Meetings,Strategic Planning Forum 2024,Technology,334,116582.8
-2025-08-25 00:00:00+00:00,Six Flags,Conferences,Theme Park Technology Conference 2024,Educational,983,327084.5
-2025-08-27 00:00:00+00:00,Aquarabia,Incentives,Excellence Awards 2024,Entertainment,684,200892.19
-2025-08-28 00:00:00+00:00,Six Flags,Conferences,Digital Innovation Conference 2024,Corporate,562,126657.42
-2025-08-28 00:00:00+00:00,Six Flags,Exhibitions,Entertainment Industry Fair 2024,Entertainment,978,252319.96
-2025-09-01 00:00:00+00:00,Aquarabia,Meetings,Leadership Summit 2024,Technology,278,65545.96
-2025-09-05 00:00:00+00:00,Aquarabia,Meetings,Management Review 2024,Technology,345,107401.13
-2025-09-06 00:00:00+00:00,Aquarabia,Conferences,Customer Experience Summit 2024,Technology,815,268908.22
-2025-09-06 00:00:00+00:00,Six Flags,Conferences,Entertainment Industry Forum 2024,Educational,971,215843.67
-2025-09-09 00:00:00+00:00,Aquarabia,Meetings,Annual Planning Session 2024,Technology,463,117440.93
-2025-09-11 00:00:00+00:00,Aquarabia,Meetings,Executive Roundtable 2024,Corporate,468,151123.17
-2025-09-11 00:00:00+00:00,Six Flags,Exhibitions,Tourism & Travel Showcase 2024,Entertainment,774,214757.89
-2025-09-13 00:00:00+00:00,Six Flags,Conferences,Sustainability Congress 2024,Entertainment,662,156372.9
-2025-09-14 00:00:00+00:00,Aquarabia,Meetings,Strategic Planning Forum 2024,Technology,318,94194.13
-2025-09-16 00:00:00+00:00,Six Flags,Conferences,Operations Excellence Conference 2024,Corporate,787,222330.62
-2025-09-17 00:00:00+00:00,Six Flags,Incentives,Leadership Recognition 2024,Corporate,628,202941.41
-2025-09-20 00:00:00+00:00,Six Flags,Meetings,Board Meeting 2024,Corporate,336,114316.98
-2025-09-21 00:00:00+00:00,Aquarabia,Exhibitions,Entertainment World Expo 2024,Technology,761,277223.31
-2025-09-23 00:00:00+00:00,Aquarabia,Meetings,Annual Planning Session 2024,Corporate,300,108981.5
-2025-09-26 00:00:00+00:00,Six Flags,Exhibitions,Theme Park Innovations Show 2024,Technology,706,179860.72
-2025-09-27 00:00:00+00:00,Aquarabia,Exhibitions,Theme Park Innovations Show 2024,Entertainment,1200,437537.4
-2025-09-28 00:00:00+00:00,Aquarabia,Conferences,Customer Experience Summit 2024,Educational,758,265706.01
-2025-09-28 00:00:00+00:00,Aquarabia,Exhibitions,Industry Leaders Exhibition 2024,Educational,1076,332918.89
-2025-10-01 00:00:00+00:00,Aquarabia,Meetings,Strategic Planning Forum 2024,Entertainment,495,123037.95
-2025-10-02 00:00:00+00:00,Aquarabia,Meetings,Annual Planning Session 2024,Corporate,362,121761.19
-2025-10-03 00:00:00+00:00,Six Flags,Meetings,Annual Planning Session 2024,Corporate,478,155874.64
-2025-10-05 00:00:00+00:00,Six Flags,Meetings,Quarterly Business Review 2024,Educational,380,93526.28
-2025-10-06 00:00:00+00:00,Aquarabia,Meetings,Annual Planning Session 2024,Entertainment,411,144867.45
-2025-10-07 00:00:00+00:00,Aquarabia,Incentives,Elite Circle Meeting 2024,Educational,441,132804.25
-2025-10-09 00:00:00+00:00,Aquarabia,Exhibitions,Theme Park Innovations Show 2024,Corporate,944,332903.16
-2025-10-09 00:00:00+00:00,Six Flags,Conferences,Sustainability Congress 2024,Educational,911,336255.31
-2025-10-10 00:00:00+00:00,Aquarabia,Conferences,Guest Experience Symposium 2024,Entertainment,686,193662.17
-2025-10-12 00:00:00+00:00,Six Flags,Exhibitions,Entertainment Industry Fair 2024,Corporate,1001,231969.48
-2025-10-13 00:00:00+00:00,Six Flags,Conferences,Guest Experience Symposium 2024,Corporate,743,191524.65
-2025-10-14 00:00:00+00:00,Aquarabia,Conferences,Theme Park Technology Conference 2024,Entertainment,998,266887.67
-2025-10-15 00:00:00+00:00,Aquarabia,Exhibitions,Entertainment Tech Expo 2024,Corporate,1141,335673.79
-2025-10-15 00:00:00+00:00,Six Flags,Conferences,Entertainment Industry Forum 2024,Educational,994,228415.22
-2025-10-16 00:00:00+00:00,Six Flags,Exhibitions,Tourism Market Exhibition 2024,Corporate,1014,269347.88
-2025-10-18 00:00:00+00:00,Six Flags,Incentives,Success Summit 2024,Corporate,796,185486.09
-2025-10-23 00:00:00+00:00,Six Flags,Conferences,Digital Innovation Conference 2024,Educational,913,214609.57
-2025-10-25 00:00:00+00:00,Six Flags,Meetings,Partners Symposium 2024,Corporate,294,74056.85
-2025-10-25 00:00:00+00:00,Six Flags,Conferences,Digital Innovation Conference 2024,Corporate,965,254804.08
-2025-10-27 00:00:00+00:00,Aquarabia,Conferences,Future of Entertainment Summit 2024,Corporate,579,196909.65
+2025-01-04 00:00:00+00:00,Aquarabia,Festivals,Family Splash Fest,Leisure,2128,742151.72
+2025-01-20 00:00:00+00:00,Aquarabia,Cultural,Arabia Heritage Week,Cultural,1609,472146.78
+2025-01-28 00:00:00+00:00,Aquarabia,Shows,Aqua Parade,Entertainment,2173,824070.08
+2025-03-06 00:00:00+00:00,Aquarabia,Cultural,Arabia Heritage Week,Cultural,3389,1284652.52
+2025-03-17 00:00:00+00:00,Aquarabia,Conferences,Tourism & Hospitality Forum,Educational,2010,538730.53
+2025-03-21 00:00:00+00:00,Aquarabia,Shows,Aqua Parade,Entertainment,3614,1252455.63
+2025-06-01 00:00:00+00:00,Aquarabia,Shows,Aqua Parade,Entertainment,4490,1357132.71
+2025-06-28 00:00:00+00:00,Aquarabia,Shows,Aqua Parade,Entertainment,3817,1128158.67
+2025-06-29 00:00:00+00:00,Aquarabia,Conferences,Tourism & Hospitality Forum,Educational,3969,1181220.86
+2025-07-02 00:00:00+00:00,Aquarabia,Incentives,Wellness Experience Day,Leisure,2190,780855.57
+2025-07-03 00:00:00+00:00,Aquarabia,Festivals,Family Splash Fest,Leisure,2419,755511.89
+2025-07-19 00:00:00+00:00,Aquarabia,Conferences,Tourism & Hospitality Forum,Educational,2266,801499.92
+2025-08-01 00:00:00+00:00,Aquarabia,Incentives,Wellness Experience Day,Leisure,1135,293403.77
+2025-08-08 00:00:00+00:00,Aquarabia,Cultural,Arabia Heritage Week,Cultural,1229,374784.62
+2025-08-27 00:00:00+00:00,Aquarabia,Festivals,Family Splash Fest,Leisure,1367,417525.46
+2025-10-06 00:00:00+00:00,Aquarabia,Cultural,Arabia Heritage Week,Cultural,1881,626923.92
+2025-10-08 00:00:00+00:00,Aquarabia,Incentives,Wellness Experience Day,Leisure,1993,515285.56
+2025-10-21 00:00:00+00:00,Aquarabia,Shows,Aqua Parade,Entertainment,1320,532483.31
+2025-01-04 00:00:00+00:00,Six Flags,Shows,Summer Thrill Nights,Entertainment,3099,950875.69
+2025-01-20 00:00:00+00:00,Six Flags,Conferences,Digital Innovation Expo,Corporate,3363,1165948.79
+2025-01-28 00:00:00+00:00,Six Flags,Meetings,Executive Strategy Summit,Corporate,3292,1047324.39
+2025-03-06 00:00:00+00:00,Six Flags,Festivals,Adventure Mania,Public,4002,1063754.56
+2025-03-17 00:00:00+00:00,Six Flags,Meetings,Executive Strategy Summit,Corporate,2454,728404.45
+2025-03-21 00:00:00+00:00,Six Flags,Incentives,Partner Appreciation Week,Corporate,3161,936683.21
+2025-06-01 00:00:00+00:00,Six Flags,Meetings,Executive Strategy Summit,Corporate,2269,761324.28
+2025-06-28 00:00:00+00:00,Six Flags,Shows,Summer Thrill Nights,Entertainment,4573,1725618.74
+2025-06-29 00:00:00+00:00,Six Flags,Shows,Summer Thrill Nights,Entertainment,4612,1737907.77
+2025-07-02 00:00:00+00:00,Six Flags,Shows,Summer Thrill Nights,Entertainment,3470,1208066.28
+2025-07-03 00:00:00+00:00,Six Flags,Shows,Summer Thrill Nights,Entertainment,1781,489422.98
+2025-07-19 00:00:00+00:00,Six Flags,Festivals,Adventure Mania,Public,3351,919752.28
+2025-08-01 00:00:00+00:00,Six Flags,Meetings,Executive Strategy Summit,Corporate,1084,378162.61
+2025-08-08 00:00:00+00:00,Six Flags,Shows,Summer Thrill Nights,Entertainment,1229,451983.16
+2025-08-27 00:00:00+00:00,Six Flags,Meetings,Executive Strategy Summit,Corporate,1602,622535.8
+2025-10-06 00:00:00+00:00,Six Flags,Meetings,Executive Strategy Summit,Corporate,3509,1084412.22
+2025-10-08 00:00:00+00:00,Six Flags,Incentives,Partner Appreciation Week,Corporate,1918,665982.98
+2025-10-21 00:00:00+00:00,Six Flags,Incentives,Partner Appreciation Week,Corporate,3070,898584.56
